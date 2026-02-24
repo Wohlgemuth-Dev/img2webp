@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"img2webp/internal/ui"
+	"github.com/Wohlgemuth-Dev/img2webp/internal/ui"
 )
 
 func getBaseDirectory() string {

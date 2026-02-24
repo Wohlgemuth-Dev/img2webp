@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"img2webp/internal/ui"
+	"github.com/Wohlgemuth-Dev/img2webp/internal/ui"
 )
 
 func parseFlags() (float64, bool) {

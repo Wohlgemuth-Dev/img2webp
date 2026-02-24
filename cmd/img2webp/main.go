@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"img2webp/internal/ui"
+	"github.com/Wohlgemuth-Dev/img2webp/internal/ui"
 )
 
 func main() {

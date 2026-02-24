@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"img2webp/internal/converter"
-	"img2webp/internal/sysutil"
-	"img2webp/internal/ui"
+	"github.com/Wohlgemuth-Dev/img2webp/internal/converter"
+	"github.com/Wohlgemuth-Dev/img2webp/internal/sysutil"
+	"github.com/Wohlgemuth-Dev/img2webp/internal/ui"
 )
 
 func processImages(imgFiles []string, quality float64, overwrite bool) int {

@@ -1,4 +1,4 @@
-module img2webp
+module github.com/Wohlgemuth-Dev/img2webp
 
 go 1.24.2
 

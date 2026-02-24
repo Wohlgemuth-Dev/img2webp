@@ -11,7 +11,7 @@ import (
 
 	"github.com/chai2010/webp"
 
-	"img2webp/internal/ui"
+	"github.com/Wohlgemuth-Dev/img2webp/internal/ui"
 )
 
 func Worker(jobs <-chan string, results chan<- error, quality float64, overwrite bool, wg *sync.WaitGroup) {
