@@ -2,7 +2,7 @@ BINARY_NAME=img2webp
 
 .PHONY: all build clean run check test
 
-all: check build zip
+all: check build
 
 build:
 	@echo "Building $(BINARY_NAME)..."
@@ -33,7 +33,7 @@ test:
 
 help:
 	@echo "Available commands:"
-	@echo "  all: Build and zip the executable"
+	@echo "  all: Build the executable"
 	@echo "  build: Build the executable"
 	@echo "  zip: Zip the executable"
 	@echo "  run: Run the executable"
