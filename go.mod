@@ -1,4 +1,4 @@
-module jpg2webp
+module img2webp
 
 go 1.24.2
 

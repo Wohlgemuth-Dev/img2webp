@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"jpg2webp/internal/converter"
-	"jpg2webp/internal/sysutil"
-	"jpg2webp/internal/ui"
+	"img2webp/internal/converter"
+	"img2webp/internal/sysutil"
+	"img2webp/internal/ui"
 )
 
 func main() {
