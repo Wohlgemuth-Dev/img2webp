@@ -1,12 +1,18 @@
 # Image to WebP Converter
 
+<div align="left">
+  <a href="https://github.com/Wohlgemuth-Dev/img2webp/releases"><img src="https://img.shields.io/github/v/release/Wohlgemuth-Dev/img2webp?style=flat" alt="GitHub Release"></a>
+  <a href="https://pkg.go.dev/github.com/Wohlgemuth-Dev/img2webp"><img src="https://pkg.go.dev/badge/github.com/Wohlgemuth-Dev/img2webp.svg" alt="Go Reference"></a>
+  <a href="https://goreportcard.com/report/github.com/Wohlgemuth-Dev/img2webp"><img src="https://goreportcard.com/badge/github.com/Wohlgemuth-Dev/img2webp" alt="Go Report Card"></a>
+</div>
+
 A fast, fully parallelized Command Line Interface (CLI) tool designed to recursively discover and convert all `.jpg`, `.jpeg`, and `.png` files within a directory (and its subdirectories) into the highly efficient WebP format.
 
 > **Note:** This tool is primarily designed and optimized for **Windows** (including seamless native integration with Windows Explorer).
 
 Built with Go and beautifully styled using [Lipgloss](https://github.com/charmbracelet/lipgloss).
 
-## ✨ Features
+## Features
 
 - **Recursive Search:** Automatically processes all supported images in the executable's directory and all of its subdirectories.
 - **Multi-Core Performance:** Leverages all available CPU cores via Go routines for lightning-fast, parallelized generation.
@@ -15,7 +21,7 @@ Built with Go and beautifully styled using [Lipgloss](https://github.com/charmbr
 - **Double-Click Support:** When launched by double-clicking in Windows Explorer, the program automatically pauses at the end so you can review the results before the window closes.
 - **Beautiful UI:** Features an elegant, color-coded, and clean command-line presentation.
 
-## 🚀 Installation
+## Installation
 
 ### Pre-compiled Binary (Windows)
 Simply download `img2webp.exe` from the Releases tab and place it into the folder containing your images. It's completely standalone—no extra dependencies or libraries (like `libwebp`) are required!
@@ -31,7 +37,7 @@ make
 # or manually: go build -o bin/img2webp.exe ./cmd/img2webp
 ```
 
-## 🛠️ Usage
+## Usage
 
 The tool is designed for plug-and-play simplicity.
 
@@ -59,11 +65,11 @@ For more granular control, open your terminal in the target directory and run th
 | `-q`, `--quality`    | Set WebP export quality (float between `0` and `100`). Default is `80.0`. |
 | `-o`, `--overwrite`  | Overwrite existing WebP copies instead of skipping them.                    |
 
-## 📦 Built With
+## Built With
 
 - [chai2010/webp](https://github.com/chai2010/webp) - Reliable CGO-binding for the official libwebp C-Library.
 - [charmbracelet/lipgloss](https://github.com/charmbracelet/lipgloss) - For styling the brilliant terminal interface.
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
