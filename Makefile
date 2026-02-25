@@ -19,7 +19,7 @@ run:
 clean:
 	@echo "Cleaning up..."
 	go clean
-	rm -f bin/$(BINARY_NAME).exe
+	rm -r bin/$(BINARY_NAME).exe
 
 check:
 	@echo "Formatting and returning go dependencies..."
