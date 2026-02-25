@@ -1,10 +1,15 @@
 # Image to WebP Converter
 
 <div align="left">
+  <!-- Project Status & Info -->
   <a href="https://github.com/Wohlgemuth-Dev/img2webp/releases"><img src="https://img.shields.io/github/v/release/Wohlgemuth-Dev/img2webp?style=flat" alt="GitHub Release"></a>
   <a href="https://pkg.go.dev/github.com/Wohlgemuth-Dev/img2webp"><img src="https://pkg.go.dev/badge/github.com/Wohlgemuth-Dev/img2webp.svg" alt="Go Reference"></a>
-  <a href="https://goreportcard.com/report/github.com/Wohlgemuth-Dev/img2webp"><img src="https://goreportcard.com/badge/github.com/Wohlgemuth-Dev/img2webp" alt="Go Report Card"></a>
+  <a href="https://goreportcard.com/report/github.com/Wohlgemuth-Dev/img2webp"><img src="https://goreportcard.com/badge/github.com/Wohlgemuth-Dev/img2webp" alt="Go Report Card"></a>  
+  <a href="https://github.com/Wohlgemuth-Dev/img2webp"><img src="https://img.shields.io/github/languages/code-size/Wohlgemuth-Dev/img2webp?style=flat" alt="Code Size"></a>
+  <a href="https://github.com/Wohlgemuth-Dev/img2webp/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Wohlgemuth-Dev/img2webp?style=flat" alt="License"></a>
 </div>
+
+
 
 A fast, fully parallelized Command Line Interface (CLI) tool designed to recursively discover and convert all `.jpg`, `.jpeg`, and `.png` files within a directory (and its subdirectories) into the highly efficient WebP format.
 
