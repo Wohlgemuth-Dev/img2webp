@@ -35,7 +35,7 @@ Simply download `img2webp.exe` from the Releases tab and place it into the folde
 Because this project utilizes the CGO-based `github.com/chai2010/webp` encoder, you will need **Go** and a **C-Compiler** (e.g., GCC via MinGW-w64 on Windows).
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/Wohlgemuth-Dev/img2webp.git
 cd img2webp
 go mod tidy
 make
